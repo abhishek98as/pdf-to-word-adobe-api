@@ -34,23 +34,23 @@ pip install PyQt5 requests
 
 ## How to Use
 
-1. **Run the Application**
+1. Run the Application*
    ```bash
    python gui.py
    ```
 
-2. **Select PDF Files**  
+2. Select PDF Files
    - Click **"Select PDFs"** to choose multiple PDF files.
    - The selected files will be listed in the UI.
 
-3. **Start Conversion**  
+3. Start Conversion
    - Click **"Start Conversion"** to begin the process.
    - The progress bar updates in real-time for each file.
 
-4. **Stop All Processes**  
+4. Stop All Processes 
    - Click **"Stop All"** to terminate ongoing conversions.
 
-5. **View Results**  
+5. View Results 
    - Converted DOCX files will be saved in the **same directory** as the original PDFs.
 
 ---
@@ -60,16 +60,16 @@ pip install PyQt5 requests
 The application requires **Adobe PDF Services API credentials** for conversion.  
 
 ### Steps:
-1. **Create an API Key**  
+1. Create an API Key
    - Go to [Adobe PDF Services API](https://developer.adobe.com/document-services/apis/pdf-services/)
    - Register and obtain **client credentials**.
 
-2. **Save Credentials**  
+2. Save Credentials**  
    - Download the `pdfservices-api-credentials.json` file.
    - Place the file in a secure location on your system.
 
-3. **Load Credentials in the App**  
-   - Click **"🔑 Choose Key"** and select your `pdfservices-api-credentials.json` file.
+3. Load Credentials in the App
+   - Click "🔑 Choose Key" and select your `pdfservices-api-credentials.json` file.
 
 ---
 
@@ -118,7 +118,6 @@ This project is **open-source** and available for modification.
 ---
 
 ## Author
-Developed by **[Your Name]** 🚀
+Developed by Abhishek Singh 🚀
 ```
 
-### Let me know if you want to customize anything! 🚀
